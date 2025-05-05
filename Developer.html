@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Reliable Developer in Tver</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #333; line-height: 1.6; }
+    header, section, footer { padding: 60px 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    nav { display: flex; justify-content: flex-end; gap: 20px; }
+    nav a { color: #333; text-decoration: none; font-weight: 500; }
+    nav a:hover { text-decoration: underline; }
+    h1, h2, h3 { margin-top: 0; }
+    .btn { display: inline-block; padding: 15px 30px; background: #007bff; color: #fff; text-decoration: none; border-radius: 4px; }
+    .features, .projects { display: flex; flex-wrap: wrap; gap: 20px; }
+    .feature, .project { flex: 1 1 calc(33% - 20px); background: #f9f9f9; padding: 20px; border-radius: 4px; }
+    .img-placeholder { width: 250px;  height: 200px; border-radius: 4px; margin-bottom: 15px; }
+    footer { background: #222; color: #ccc; text-align: center; }
+    @media (max-width: 768px) { .feature, .project { flex: 1 1 100%; } nav { justify-content: center; } }
+  </style>
+</head>
+<body>
+  <!-- Header with Navigation and Hero -->
+  <header style="background: #eef5ff;">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+      <nav>
+        <a href="#">Главная</a>
+        <a href="#why">Преимущества</a>
+        <a href="#projects">Проекты</a>
+        <a href="#about">О нас</a>
+        <a href="#testimonials">Отзывы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <img src="jk.jpg" class="img-placeholder" style="background-color: #cce0ff; width: 100%; height:100%; margin-top: 40px;" alt="Общий вид современного жилого комплекса в Твери" />
+      <h1>Надежное жилье от лидера застройки Твери</h1>
+      <p>Строим комфортные дома с продуманной инфраструктурой. Гарантия качества и лучших условий для жизни.</p>
+      <a href="#contact" class="btn">Оставить заявку</a>
+    </div>
+  </header>
+
+  <!-- Why Us Section -->
+  <section id="why">
+    <div class="container">
+      <h2>Почему выбирают нас</h2>
+      <div class="features">
+        <div class="feature">
+          <img src="photo_2025-05-05_17-02-28.jpg" class="img-placeholder" style="background-color: #e0f7e9;" alt="Иконка качества и сертификатов" />
+          <h3>Качество и Сертификация</h3>
+          <p>Используем только проверенные материалы и технологии. Все объекты сертифицированы и соответствуют нормам.</p>
+        </div>
+        <div class="feature">
+          <img src="slyzhba.png" class="img-placeholder" style="background-color: #fff3cd;" alt="Собственная инженерная служба" />
+          <h3>Собственная инженерная служба</h3>
+          <p>От проекта до сдачи дома — контролируем каждый этап. Современные инженерные решения и энергоэффективность.</p>
+        </div>
+        <div class="feature">
+          <img src="photo_2025-05-05_17-02-29.jpg" class="img-placeholder" style="background-color: #fde2e2;" alt="Менеджер помогает с ипотекой" />
+          <h3>Поддержка при покупке</h3>
+          <p>Ипотека, рассрочка, оформление документов — помогаем на каждом шагу, чтобы покупка прошла без стресса.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" style="background: #f5f5f5;">
+    <div class="container">
+      <h2>Наши проекты в Твери</h2>
+      <div class="projects">
+        <div class="project">
+          <img src="fasad.jpg" class="img-placeholder" style="background-color: #d1c4e9;" alt="Фасад жилого комплекса «Речной берег»" />
+          <h3>«Речной берег»</h3>
+          <p>Современный комплекс на набережной Волги: пешеходные зоны, детские площадки, развитая инфраструктура.</p>
+        </div>
+        <div class="project">
+          <img src="plankv.jpg" class="img-placeholder" style="background-color: #b3e5fc;" alt="Открытая планировка квартир в ЖК «Солнечный»" />
+          <h3>«Солнечный»</h3>
+          <p>Компактные и уютные квартиры с продуманными планировками, рядом школа, магазины и остановка общественного транспорта.</p>
+        </div>
+        <div class="project">
+          <img src="green.jpeg" class="img-placeholder" style="background-color: #ffcdd2;" alt="Зелёная зона вокруг ЖК «Лесной квартал»" />
+          <h3>«Лесной квартал»</h3>
+          <p>Экологичный район у лесопарка: свежий воздух, прогулочные дорожки, спортивные площадки.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>О компании</h2>
+      <p>Более 10 лет опыта на рынке недвижимости Твери. Сдано 15 жилых комплексов, более 2000 счастливых семей. Работаем на репутацию и долгие отношения с клиентами.</p>
+      <img src="team.jpg" class="img-placeholder" style="background-color: #f0f0f0; width: 100%; height:100%;" alt="Команда строителей и архитекторов на стройплощадке" />
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" style="background: #eef5ff;">
+    <div class="container">
+      <h2>Отзывы клиентов</h2>
+      <div class="projects">
+        <div class="project">
+          <p>«Покупали квартиру в «Речном береге» — от оформления до заселения всё прошло быстро и комфортно. Спасибо!»</p>
+          <h3>Анна К., Тверь</h3>
+        </div>
+        <div class="project">
+          <p>«В «Солнечном» отличный выбор планировок. Менеджеры помогли с ипотекой под выгодный процент.»</p>
+          <h3>Игорь П., Тверь</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container" style="text-align: center;">
+      <h2>Свяжитесь с нами</h2>
+      <p>Получите бесплатную консультацию и расчет стоимости проекта.</p>
+      <form style="max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+        <input type="text" placeholder="Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+        <input type="tel" placeholder="Phone" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+        <button type="submit" class="btn">Отправить заявку</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Застройщик Тверь. Все права защищены.</p>
+      <p>Телефон: +7 (4822) XXX-XXX | Email: info@tverbuilder.ru</p>
+    </div>
+  </footer>
+
+  <script>
+  const userLang = navigator.language || navigator.userLanguage;
+
+  if (userLang && userLang.startsWith('en')) {
+    // Переводы
+    const translations = {
+      'Главная': 'Home',
+      'Преимущества': 'Why Us',
+      'Проекты': 'Projects',
+      'О нас': 'About',
+      'Отзывы': 'Testimonials',
+      'Контакты': 'Contact',
+      'Надежное жилье от лидера застройки Твери': 'Reliable housing from the leading developer in Tver',
+      'Строим комфортные дома с продуманной инфраструктурой. Гарантия качества и лучших условий для жизни.':
+        'We build comfortable homes with thoughtful infrastructure. Guaranteed quality and best living conditions.',
+      'Оставить заявку': 'Request a quote',
+      'Почему выбирают нас': 'Why choose us',
+      'Качество и Сертификация': 'Quality and Certification',
+      'Используем только проверенные материалы и технологии. Все объекты сертифицированы и соответствуют нормам.':
+        'We use only proven materials and technologies. All projects are certified and meet standards.',
+      'Собственная инженерная служба': 'In-house engineering service',
+      'От проекта до сдачи дома — контролируем каждый этап. Современные инженерные решения и энергоэффективность.':
+        'From design to completion — we oversee every stage. Modern engineering and energy efficiency.',
+      'Поддержка при покупке': 'Purchase support',
+      'Ипотека, рассрочка, оформление документов — помогаем на каждом шагу, чтобы покупка прошла без стресса.':
+        'Mortgage, installments, paperwork — we help at every step to make the purchase stress-free.',
+      'Наши проекты в Твери': 'Our projects in Tver',
+      '«Речной берег»': '“Riverbank”',
+      'Современный комплекс на набережной Волги: пешеходные зоны, детские площадки, развитая инфраструктура.':
+        'A modern complex on the Volga embankment: pedestrian zones, playgrounds, and developed infrastructure.',
+      '«Солнечный»': '“Sunny”',
+      'Компактные и уютные квартиры с продуманными планировками, рядом школа, магазины и остановка общественного транспорта.':
+        'Compact and cozy apartments with smart layouts, near schools, shops, and public transport.',
+      '«Лесной квартал»': '“Forest Quarter”',
+      'Экологичный район у лесопарка: свежий воздух, прогулочные дорожки, спортивные площадки.':
+        'Eco-friendly district near the forest park: fresh air, walking paths, and sports grounds.',
+      'О компании': 'About the company',
+      'Более 10 лет опыта на рынке недвижимости Твери. Сдано 15 жилых комплексов, более 2000 счастливых семей. Работаем на репутацию и долгие отношения с клиентами.':
+        'Over 10 years of experience in the Tver real estate market. 15 complexes delivered, more than 2000 happy families. We work for reputation and long-term relationships.',
+      'Отзывы клиентов': 'Client reviews',
+      '«Покупали квартиру в «Речном береге» — от оформления до заселения всё прошло быстро и комфортно. Спасибо!»':
+        '“We bought an apartment in ‘Riverbank’ — from paperwork to moving in, everything was quick and smooth. Thank you!”',
+      'Анна К., Тверь': 'Anna K., Tver',
+      '«В «Солнечном» отличный выбор планировок. Менеджеры помогли с ипотекой под выгодный процент.»':
+        '“Great layout choices in ‘Sunny’. The managers helped us get a favorable mortgage.”',
+      'Игорь П., Тверь': 'Igor P., Tver',
+      'Свяжитесь с нами': 'Contact us',
+      'Получите бесплатную консультацию и расчет стоимости проекта.':
+        'Get a free consultation and project cost estimate.',
+      'Ваше имя': 'Your name',
+      'Телефон': 'Phone',
+      'Отправить заявку': 'Send request',
+      '© 2025 Застройщик Тверь. Все права защищены.': '© 2025 Tver Developer. All rights reserved.',
+      'Телефон: +7 (4822) XXX-XXX | Email: info@tverbuilder.ru':
+        'Phone: +7 (4822) XXX-XXX | Email: info@tverbuilder.ru'
+    };
+
+    // Функция замены текста
+    const replaceText = (element) => {
+      if (!element.children.length && translations[element.textContent.trim()]) {
+        element.textContent = translations[element.textContent.trim()];
+      } else {
+        Array.from(element.childNodes).forEach(child => {
+          if (child.nodeType === 3) { // текстовый узел
+            const trimmed = child.textContent.trim();
+            if (translations[trimmed]) {
+              child.textContent = child.textContent.replace(trimmed, translations[trimmed]);
+            }
+          } else if (child.nodeType === 1) {
+            replaceText(child);
+          }
+        });
+      }
+    };
+
+    replaceText(document.body);
+  }
+
+</script>
+</body>
+</html>
